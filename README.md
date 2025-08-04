@@ -1,3 +1,26 @@
+# Dynamic CRUD App (Next.js + MUI + Formik/Yup + MongoDB + Redux Toolkit + Axios)
+
+## Overview
+
+This is a reusable, configurable CRUD scaffold built with:
+- **Frontend:** Next.js, Material UI (MUI), Formik + Yup for forms/validation
+- **State:** Redux Toolkit (optional centralized state) / local hook abstraction
+- **Data fetching:** Axios
+- **Backend storage:** MongoDB (via Mongoose)
+- **Patterns:** Entity-driven form/table generation, modular reusable components
+
+You can plug in any entity (e.g., Product, Task, User) by supplying a config object and schema.
+
+ 
+
+## Quick Start (step by step)
+
+1. **Clone & install**
+   ```bash
+   git clone <repo-url>
+   cd my-crud-app
+   npm install
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
